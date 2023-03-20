@@ -1,0 +1,14 @@
+.home-container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    min-height: 670px;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+   
+    z-index: 200;
+    /* background-image: url("../../../assets/Home/Macintosh-Best-Wallpaper-84480.jpg"); */
+
+}

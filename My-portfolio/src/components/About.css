@@ -1,0 +1,79 @@
+
+.about{
+    background-color: white;
+    z-index: 1;
+}
+.aboutme-text>h1{
+    text-align: center;
+    font-weight: 600;
+    margin: 50px;
+}
+ul {
+    list-style: none;
+   align-items: center;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #ff5823;;
+    padding: 10px;
+   font-size: 30px;
+    width: 1em;
+   line-height: 20px;
+   
+   
+  }
+  .about-container{
+      background-color: white;
+      width:80% ;
+      margin: auto;
+  }
+  .aboutme-img{
+      width: 40%;
+  }
+  .aboutme-img >img{
+      width: 400px;
+      height: 400px;
+    
+  }
+  .aboutme-container{
+      display: flex;
+  }
+  .aboutme-text-section{
+      width: 60%;
+  }
+  .hr-line{
+      width: 100px;
+      height: 2px;
+      background-color: black;
+  }
+  .hr-line-orange{
+      width: 40px;
+      height: 8px;
+      border-radius: 20px;
+      background-color:#ff5823 ;
+      text-align: center;
+  }
+  .dash{
+      display: flex;
+      margin: auto;
+      width: 240px;
+      align-items: center;
+      margin-bottom: 50px;
+  }
+  @media screen and (max-width:1110px){
+     .aboutme-img>img{
+         display: none;
+     } 
+     .aboutme-text-section{
+        margin-left: -8.5rem;
+
+        width: 100%;
+     }
+     .about-me-highlight>h3{
+         font-size: 20px;
+     }
+      .about-me-highlight>ul{
+        margin-left: -3rem;
+      }
+  }

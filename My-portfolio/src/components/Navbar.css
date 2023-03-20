@@ -1,0 +1,29 @@
+
+/* .navbar {
+    width: 100vw;
+    margin: 0  auto 60px auto;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: white;
+
+   
+ 
+    
+} */
+.navbar-container{
+   height: 100px;
+   color: white;
+   z-index: 10;
+   position: sticky;
+   background-color: #112031;
+   top: 0;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:#ff5823 ;
+}
