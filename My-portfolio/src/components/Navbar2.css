@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+#navbarSupportedContent{
+    background-color: #0F1624;;
+}
+body{
+    font-family: "Roboto Condensed" sans-serif;  
+}
+:root{
+    --primary-white:#fff;
+}
+
+nav a.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+nav ul li{
+    text-transform: uppercase;
+
+}
+/*
+ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: 10px;
+    background: #f00;
+}
+*/
+ #navbar-list li::before{
+     content: "";
+   list-style: none !important;
+    
+}
+.navbar-nav>li>a{
+    margin-right: 0.75rem;
+    margin-left: 00.75rem;
+    color:var(--primary-white) !important;
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+}
+.navbar2{
+    height: 100px;
+    color: white;
+    z-index: 99999;
+    position: sticky;
+    background-color: #0F1624 !important;
+    top: 0;
+    min-width: 375px;
+ }
+ .navbar-nav{
+     margin-left: 17%;
+ }
+ .navbar-toggle-icon{
+     background-color: white !important;
+ }
+ .navbar-toggle-collapse{
+     background-color: white !important;
+ }
+ .navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    line-height: 1;
+    background-color: #fff !important;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+ }

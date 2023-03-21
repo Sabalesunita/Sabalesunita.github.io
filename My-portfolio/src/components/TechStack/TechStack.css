@@ -1,0 +1,56 @@
+.techstack{
+    background-color: white;
+    z-index: 4;
+
+}
+.techstack-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.techstack-heading>h1{
+    text-align: center;
+    margin: 50px;
+    font-weight: 600;
+}
+.techstack-heading2>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.techstack-frontend, .techstack-backend{
+    background-color: #0F1624;
+    border-radius: 8px;
+    display: flex;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.techstack-frontend{
+    margin-bottom: 30px;
+}
+.techstack-frontend img, .techstack-backend img{
+    width: 120px;
+    padding: 3px;
+    margin: 8px;
+    border-radius: 4px;
+    background-color: aliceblue;
+
+}
+.techstack-frontend img:hover, .techstack-backend img:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+}
+.techstack-backend{
+}
+@media screen and (max-width:910px) {
+   .techstack-frontend{
+       
+    display: grid;
+    grid-template: repeat(3,200px);
+
+} 
+}
